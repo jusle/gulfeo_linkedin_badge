@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+		<template id="layout" name="linkedin_badge jusle" inherit_id="web.layout">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+            </xpath>
+        </template>
+	</data>
+</odoo>
