@@ -3,7 +3,7 @@
     <data>
         <template id="custom_assets" inherit_id="website.assets_frontend" name="Custom Assets">
             <xpath expr="." position="inside">
-                <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+                <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async="1" defer="1"></script>
             </xpath>
         </template>
 	</data>
